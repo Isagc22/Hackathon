@@ -1,0 +1,40 @@
+.btn-nueva-bq{
+  background-color: #ecefca !important;
+  border: 1px solid #ffe99a !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+}
+
+.card-header-procesos{
+    background-color: #547792 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+}
+
+.resumen-ia {
+    background-color: #f8f9fa;
+    border-left: 4px solid #213448!important;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+
+.card-header-actuaciones{
+    background-color: #547792 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    text-align: center;
+}
+
+h4{
+    font-weight: 700 !important;
+    color: #000000 !important;
+}

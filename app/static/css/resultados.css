@@ -1,94 +1,88 @@
 .card-header.header-resultados {
-    background: #547792;
+  background: #547792;
 }
 
 h2.mb-0 {
-    color: #fff;
+  color: #fff;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  
 }
 
-.body-cont-info{
-    background: #94B4C1;
+.body-cont-info {
+  background: #94b4c1;
 }
 
-
-.btn-nueva-bus{
-      background-color: #ECEFCA !important;
-    border: 1px solid #FFE99A!important;
+.btn-nueva-bus {
+  background-color: #ecefca !important;
+  border: 1px solid #ffe99a !important;
 }
 
-.alert.alert-info{
-background-color: #213448!important;
-    color: #fff!important;
-    border: none!important;
+.alert.alert-info {
+  background-color: #213448 !important;
+  color: #fff !important;
+  border: none !important;
 }
-.mt-3{
-    display: flex;
-    justify-content: center;
+.mt-3 {
+  display: flex;
+  justify-content: center;
 }
-
 
 /* ------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-
-
 
 .table-custom {
-    font-family: 'Inter', sans-serif !important;
-    background-color: #ECEFCA !important;
-    border-radius: 8px !important;
-    overflow: hidden !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
-    width: 100% !important;
+  font-family: "Inter", sans-serif !important;
+  background-color: #ecefca !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+  width: 100% !important;
 }
 
 thead.table-head-custom {
-    background-color: #213448 !important;
-    color: #ECEFCA !important;
+  background-color: #213448 !important;
+  color: #ecefca !important;
 }
 
 th.table-header-cell {
-    font-weight: 600 !important;
-    padding: 12px !important;
-    text-align: left !important;
-    color: #ECEFCA !important;
-    text-align: center;
+  font-weight: 600 !important;
+  padding: 12px !important;
+  color: #000 !important;
+  text-align: center !important;
+  background-color:#547792!important ;
+  font-weight: 700 !important;
 }
 
-.table-row-custom {
-    transition: background-color 0.2s ease-in-out !important;
+tr.table-row-custom {
+  transition: background-color 0.2s ease-in-out !important;
 }
 
 .even-row {
-    background-color: #94B4C1 !important;
-    color: #000 !important;
+  background-color: #94b4c1 !important;
+  color: #000 !important;
 }
 
 .odd-row {
-    background-color: #547792 !important;
-    color: #fff !important;
+  background-color: #547792 !important;
+  color: #fff !important;
 }
 
 .table-cell {
-    padding: 10px !important;
-    vertical-align: middle !important;
+  padding: 10px !important;
+  vertical-align: middle !important;
 }
 
 .btn-custom {
-    background-color: #213448 !important;
-    border: none !important;
-    font-weight: 600 !important;
-    font-size: 0.875rem !important;
-    color: #fff !important;
-    transition: background-color 0.2s ease-in-out !important;
+  background-color: #213448 !important;
+  border: none !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  color: #fff !important;
+  transition: background-color 0.2s ease-in-out !important;
 }
 
 .btn-custom:hover {
-    background-color: #547792 !important;
-    color: #ECEFCA !important;
+  background-color: #547792 !important;
+  color: #ecefca !important;
 }

@@ -82,7 +82,7 @@ body {
     height: 24px;
     border-radius: 50%;
     text-align: center;
-    background: #007bff;
+    background: #213448;
     border: 4px solid #fff;
     z-index: 1;
     transform: translateX(-50%);
@@ -115,7 +115,7 @@ body {
 /* Estilos para los resúmenes generados por IA */
 .resumen-ia {
     background-color: #f8f9fa;
-    border-left: 4px solid #0d6efd;
+    border-left: 4px solid #213448;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 4px;
