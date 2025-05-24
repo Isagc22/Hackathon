@@ -1,0 +1,34 @@
+{
+  "tipoConsulta": "NumeroRadicacion",
+  "procesos": [
+    {
+      "idProceso": 133922731,
+      "idConexion": 331,
+      "llaveProceso": "05001310301020220022900",
+      "fechaProceso": "2022-07-06T00:00:00",
+      "fechaUltimaActuacion": "2022-09-15T00:00:00",
+      "despacho": "JUZGADO 010 CIVIL DEL CIRCUITO DE MEDELLÍN ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante: MARTA CECILIA OCHOA RAMOS | Demandado: COLPENSIONES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": "05001310301020220022900",
+    "nombre": null,
+    "tipoPersona": null,
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": false
+  },
+  "paginacion": {
+    "cantidadRegistros": 1,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

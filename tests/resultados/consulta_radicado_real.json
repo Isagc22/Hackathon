@@ -1,0 +1,46 @@
+{
+  "tipoConsulta": "NumeroRadicacion",
+  "procesos": [
+    {
+      "idProceso": 175838301,
+      "idConexion": 331,
+      "llaveProceso": "05001400302320240139200",
+      "fechaProceso": "2024-08-05T00:00:00",
+      "fechaUltimaActuacion": "2025-04-04T00:00:00",
+      "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante: JULIAN DAVID VERGARA TABORDA | Demandado: DAVIVIENDA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 199209881,
+      "idConexion": 320,
+      "llaveProceso": "05001400302320240139200",
+      "fechaProceso": "2024-08-02T00:00:00",
+      "fechaUltimaActuacion": "2025-04-25T00:00:00",
+      "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: JULIAN DAVID VERGARA TABORDA | Demandado/indiciado/causante: DAVIVIENDA | Demandado/indiciado/causante: banco falabela | Demandado/indiciado/causante: OMPAÑIA DE FINANCIAMIENTO TUYA S.A | Demandado/indiciado/causante: VIVA AIR - FAST COLOMBIA S.A.S. | Demandado/indiciado/causante: RAPPI SAS    | Demandado/indiciado/causante: BANCO DE BOGOTA | Demandado/indiciado/causante: NU COLOMBIA S.A. | Demandado/indiciado/causante: banco av villas | Defensor Privado: MERLY SELENI CONSUEGRA ZAMBRANO | Tercero Vinculado: acreedores indeterminados   (Emplazado) ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": "05001400302320240139200",
+    "nombre": null,
+    "tipoPersona": null,
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": false
+  },
+  "paginacion": {
+    "cantidadRegistros": 2,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

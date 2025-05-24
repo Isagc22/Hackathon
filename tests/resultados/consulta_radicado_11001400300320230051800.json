@@ -1,0 +1,46 @@
+{
+  "tipoConsulta": "NumeroRadicacion",
+  "procesos": [
+    {
+      "idProceso": 130307650,
+      "idConexion": 259,
+      "llaveProceso": "11001400300320230051800",
+      "fechaProceso": "2023-06-08T00:00:00",
+      "fechaUltimaActuacion": "2025-03-04T00:00:00",
+      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: HAMMER LEANDRO DESCANSE VALLEJO | Demandado: HAMMER LEANDRO DESCANSE VALLEJO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 162591171,
+      "idConexion": 320,
+      "llaveProceso": "11001400300320230051800",
+      "fechaProceso": "2023-06-07T00:00:00",
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante/accionante: HAMMER LEANDRO DESCANSE\r\n\t\t\t\t\tVALLEJO | Demandado/indiciado/causante: EMPLAZAMIENTO DE LOS ACREEDORES Y DEUDORES DEL CONSCURSADO HAMMER LEANDRO DESCANSE VALLEJO (Emplazado) | Defensor Publico: CAMILO ARTURO GONZALEZ\r\n\t\t\t\t\tGARZON ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": "11001400300320230051800",
+    "nombre": null,
+    "tipoPersona": null,
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": false
+  },
+  "paginacion": {
+    "cantidadRegistros": 2,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

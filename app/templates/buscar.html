@@ -1,0 +1,85 @@
+
+<link rel="stylesheet" href="{{ url_for('static', path='css/buscar.css') }}">
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row custom-row-busqueda">
+    <div class="col-md-10 offset-md-1 custom-col-busqueda">
+        <div class="card custom-card-busqueda">
+            <div class="card-header bg-primary text-white custom-card-header">
+                <h2 class="mb-0 custom-title">Búsqueda de Procesos Judiciales</h2>
+            </div>
+            <div class="card-body custom-card-body">
+                <ul class="nav nav-tabs custom-nav-tabs" id="busquedaTab" role="tablist">
+                    <li class="nav-item custom-tab-item" role="presentation">
+                        <button class="nav-link active custom-tab-link" id="razon-social-tab" data-bs-toggle="tab" data-bs-target="#razon-social" type="button" role="tab" aria-controls="razon-social" aria-selected="true">
+                            Por Razón Social
+                        </button>
+                    </li>
+                    <li class="nav-item custom-tab-item" role="presentation">
+                        <button class="nav-link custom-tab-link" id="radicado-tab" data-bs-toggle="tab" data-bs-target="#radicado" type="button" role="tab" aria-controls="radicado" aria-selected="false">
+                            Por Radicado
+                        </button>
+                    </li>
+                </ul>
+                
+                <div class="tab-content mt-3 custom-tab-content" id="busquedaTabContent">
+                    <!-- Búsqueda por Razón Social -->
+                    <div class="tab-pane fade show active custom-tab-pane" id="razon-social" role="tabpanel" aria-labelledby="razon-social-tab">
+                        <form action="/buscar/razon-social" method="post" class="custom-form">
+                            <div class="mb-3 custom-form-group">
+                                <label for="nombre" class="form-label custom-label">Nombre o Razón Social</label>
+                                <input type="text" class="form-control custom-input" id="nombre" name="nombre" required>
+                                <div class="form-text custom-text-help">Ingrese el nombre completo o parcial de la empresa o persona.</div>
+                            </div>
+                            
+                            <div class="mb-3 custom-form-group">
+                                <label for="tipo_persona" class="form-label custom-label">Tipo de Persona</label>
+                                <select class="form-select custom-select" id="tipo_persona" name="tipo_persona">
+                                    <option value="jur" selected>Jurídica</option>
+                                    <option value="nat">Natural</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3 custom-form-group">
+                                <label for="codificacion_despacho" class="form-label custom-label">Código de Despacho</label>
+                                <input type="text" class="form-control custom-input" id="codificacion_despacho" name="codificacion_despacho">
+                                <div class="form-text custom-text-help">
+                                    Ejemplos: 11001 (Bogotá), 05001 (Medellín), 76001 (Cali). 
+                                    <strong>Requerido para evitar error de demasiados resultados.</strong>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3 form-check custom-check-group">
+                                <input type="checkbox" class="form-check-input custom-checkbox" id="solo_activos" name="solo_activos" value="true" checked>
+                                <label class="form-check-label custom-check-label" for="solo_activos">Solo procesos activos</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary custom-btn-submit">Buscar</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Búsqueda por Radicado -->
+                    <div class="tab-pane fade custom-tab-pane" id="radicado" role="tabpanel" aria-labelledby="radicado-tab">
+                        <form action="/buscar/radicado" method="post" class="custom-form">
+                            <div class="mb-3 custom-form-group">
+                                <label for="numero" class="form-label custom-label">Número de Radicado</label>
+                                <input type="text" class="form-control custom-input" id="numero" name="numero" required>
+                                <div class="form-text custom-text-help">Ingrese el número de radicado completo (ejemplo: 11001400300320230051800).</div>
+                            </div>
+                            
+                            <div class="mb-3 form-check custom-check-group">
+                                <input type="checkbox" class="form-check-input custom-checkbox" id="solo_activos_radicado" name="solo_activos" value="true">
+                                <label class="form-check-label custom-check-label" for="solo_activos_radicado">Solo procesos activos</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary custom-btn-submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

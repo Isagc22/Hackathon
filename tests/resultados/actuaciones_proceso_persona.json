@@ -1,0 +1,25 @@
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 1714509571,
+      "llaveProceso": "05001400302320240139200",
+      "consActuacion": 50425332,
+      "fechaActuacion": "2025-04-25T00:00:00",
+      "actuacion": "Emplaza persona natural no comerciante",
+      "anotacion": "CUARTO: De conformidad con la Ley 2213 de 2022 en armonía con los artículos 108 y 566 del C.G.P., se ordena publicar el presente proceso en el Registro Nacional de Personas Emplazadas, con el fin de que, en el término de 20 días, quienes se consideren acreedores, se hagan parte en el presente proceso, so pena de tenerlo como extemporáneo, salvo tratándose de créditos por alimentos, para lo cual aportarán prueba de la existencia del crédito",
+      "fechaInicial": "2025-04-28T00:00:00",
+      "fechaFinal": "2025-05-26T00:00:00",
+      "fechaRegistro": "2025-04-25T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 1
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 1,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

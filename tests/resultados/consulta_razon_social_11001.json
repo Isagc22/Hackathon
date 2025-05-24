@@ -1,0 +1,21 @@
+{
+  "tipoConsulta": "NombreRazonSocial",
+  "procesos": [],
+  "parametros": {
+    "numero": null,
+    "nombre": "Empresa Pequeña Ficticia SAS",
+    "tipoPersona": "jur",
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": "11001",
+    "soloActivos": true
+  },
+  "paginacion": {
+    "cantidadRegistros": 0,
+    "registrosPagina": 20,
+    "cantidadPaginas": 0,
+    "pagina": 1,
+    "paginas": null
+  }
+}

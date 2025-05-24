@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <div class="card">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h2 class="mb-0">Documentos de la Actuación</h2>
+                <a href="javascript:history.back()" class="btn btn-light btn-sm">Volver al proceso</a>
+            </div>
+            <div class="card-body">
+                {% if documentos and documentos.documentos and documentos.documentos|length > 0 %}
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre del Documento</th>
+                                    <th>Fecha</th>
+                                    <th>Fecha de Publicación</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for documento in documentos.documentos %}
+                                <tr>
+                                    <td>{{ documento.nombreDocumento }}</td>
+                                    <td>{{ documento.fechaDocumento }}</td>
+                                    <td>{{ documento.fechaPublicacion }}</td>
+                                    <td>
+                                        <a href="https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Descarga/Documento/{{ documento.idRegDocumento }}" 
+                                           class="btn btn-sm btn-primary" target="_blank">
+                                            Descargar
+                                        </a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <div class="alert alert-info">
+                        No hay documentos disponibles para esta actuación.
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

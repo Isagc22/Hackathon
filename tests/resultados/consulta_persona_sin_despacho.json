@@ -1,0 +1,142 @@
+{
+  "tipoConsulta": "NombreRazonSocial",
+  "procesos": [
+    {
+      "idProceso": 199209881,
+      "idConexion": 320,
+      "llaveProceso": "05001400302320240139200",
+      "fechaProceso": "2024-08-02T00:00:00",
+      "fechaUltimaActuacion": "2025-04-25T00:00:00",
+      "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: JULIAN DAVID VERGARA TABORDA | Demandado/indiciado/causante: RAPPI SAS    | Demandado/indiciado/causante: VIVA AIR - FAST COLOMBIA S.A.S. | Demandado/indiciado/causante: OMPAÑIA DE FINANCIAMIENTO TUYA S.A | Demandado/indiciado/causante: banco falabela | Demandado/indiciado/causante: BANCO DE BOGOTA | Demandado/indiciado/causante: NU COLOMBIA S.A. | Demandado/indiciado/causante: banco av villas | Demandado/indiciado/causante: DAVIVIENDA | Defensor Privado: MERLY SELENI CONSUEGRA ZAMBRANO | Tercero Vinculado: acreedores indeterminados   (Emplazado) ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 197620851,
+      "idConexion": 320,
+      "llaveProceso": "05045400300320250018400",
+      "fechaProceso": "2025-03-12T00:00:00",
+      "fechaUltimaActuacion": "2025-05-13T00:00:00",
+      "despacho": "DESPACHO 003 - JUZGADO MUNICIPAL - CIVIL - APARTADÓ *",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: yosira  Gonzalez\r\n\t\t\t\t\tTapias | Defensor Privado: MERLY SELENI CONSUEGRA\r\n\t\t\t\t\tZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 195381281,
+      "idConexion": 320,
+      "llaveProceso": "05051408900120250002700",
+      "fechaProceso": "2025-01-31T00:00:00",
+      "fechaUltimaActuacion": "2025-04-25T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE ARBOLETES ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: IVAN DARIO RAMIREZ\r\n\t\t\t\t\tSERNA | Demandado/indiciado/causante: DARLIS CECILIA FUENTES\r\n\t\t\t\t\tPEÑATE | Demandado/indiciado/causante: EVER ELOY CORREA\r\n\t\t\t\t\tALVAREZ | Defensor Privado: MERLY SELENI CONSUEGRA\r\n\t\t\t\t\tZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 197237201,
+      "idConexion": 320,
+      "llaveProceso": "05659408900120250006600",
+      "fechaProceso": "2025-02-05T00:00:00",
+      "fechaUltimaActuacion": "2025-04-28T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE SAN JUAN DE URABÁ ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: JUAN BERNARDO PACHECO\r\n\t\t\t\t\tAGUIRRE | Defensor Privado: MERLY SELENI CONSUEGRA\r\n\t\t\t\t\tZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 199092421,
+      "idConexion": 320,
+      "llaveProceso": "05837408900120250009400",
+      "fechaProceso": "2025-02-05T00:00:00",
+      "fechaUltimaActuacion": "2025-04-24T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE TURBO ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: eLIAS JOSE PADILLA BOLAÑO | Defensor Privado: MERLY SELENI CONSUEGRA ZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 199093281,
+      "idConexion": 320,
+      "llaveProceso": "05837408900120250010400",
+      "fechaProceso": "2025-02-05T00:00:00",
+      "fechaUltimaActuacion": "2025-04-24T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE TURBO ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: YULEISY  CEREN LUJAN | Demandado/indiciado/causante: LUZ ESTELLA PEÑA CORDOBA | Defensor Privado: MERLY SELENI CONSUEGRA ZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 195557481,
+      "idConexion": 320,
+      "llaveProceso": "23350408900120250000900",
+      "fechaProceso": "2025-02-06T00:00:00",
+      "fechaUltimaActuacion": "2025-05-06T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE LA APARTADA ",
+      "departamento": "CÓRDOBA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: paula carolina zuleta\r\n\t\t\t\t\tarenas | Demandado/indiciado/causante: libardo antonio lopez\r\n\t\t\t\t\trivera | Defensor Privado: MERLY SELENI CONSUEGRA\r\n\t\t\t\t\tZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 195505951,
+      "idConexion": 320,
+      "llaveProceso": "23466408900120250003700",
+      "fechaProceso": "2025-02-05T00:00:00",
+      "fechaUltimaActuacion": "2025-05-13T00:00:00",
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE MONTELÍBANO ",
+      "departamento": "CÓRDOBA",
+      "sujetosProcesales": "Demandante/accionante: COOPERATIVA DE AHORRO Y CREDITO MICROEMPRESAS DE COLOMBIA | Demandado/indiciado/causante: LEONARDO DAVID SUAREZ\r\n\t\t\t\t\tSANCHEZ | Defensor Privado: MERLY SELENI CONSUEGRA\r\n\t\t\t\t\tZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 200023461,
+      "idConexion": 320,
+      "llaveProceso": "23466408900120250019500",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE MONTELÍBANO ",
+      "departamento": "CÓRDOBA",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 199308211,
+      "idConexion": 320,
+      "llaveProceso": "70001600103420210171100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE BUENAVISTA ",
+      "departamento": "SUCRE",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": null,
+    "nombre": "Merly Seleni Consuegra Zambrano",
+    "tipoPersona": "nat",
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": true
+  },
+  "paginacion": {
+    "cantidadRegistros": 10,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

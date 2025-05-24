@@ -1,0 +1,34 @@
+{
+  "tipoConsulta": "NumeroRadicacion",
+  "procesos": [
+    {
+      "idProceso": 198167821,
+      "idConexion": 320,
+      "llaveProceso": "05001418900820250032700",
+      "fechaProceso": "2025-03-25T00:00:00",
+      "fechaUltimaActuacion": "2025-04-30T00:00:00",
+      "despacho": "JUZGADO 008 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE MEDELLÍN ",
+      "departamento": "ANTIOQUIA",
+      "sujetosProcesales": "Demandante/accionante: BANCO FALABELLA SA | Demandado/indiciado/causante: PAOLA ANDREA  AGUDELO AREIZA\r\n\t\t\t\t\t ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": "05001418900820250032700",
+    "nombre": null,
+    "tipoPersona": null,
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": false
+  },
+  "paginacion": {
+    "cantidadRegistros": 1,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

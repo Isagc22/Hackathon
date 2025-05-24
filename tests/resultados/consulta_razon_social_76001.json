@@ -1,0 +1,21 @@
+{
+  "tipoConsulta": "NombreRazonSocial",
+  "procesos": [],
+  "parametros": {
+    "numero": null,
+    "nombre": "Microempresa Prueba",
+    "tipoPersona": "jur",
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": "76001",
+    "soloActivos": true
+  },
+  "paginacion": {
+    "cantidadRegistros": 0,
+    "registrosPagina": 20,
+    "cantidadPaginas": 0,
+    "pagina": 1,
+    "paginas": null
+  }
+}

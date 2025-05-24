@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h2 class="mb-0">Detalle del Proceso</h2>
+                <a href="/buscar" class="btn btn-light btn-sm">Nueva búsqueda</a>
+            </div>
+            <div class="card-body">
+                {% if resumen_ia %}
+                <div class="resumen-ia mb-4">
+                    <h4>Resumen IA</h4>
+                    <p>{{ resumen_ia }}</p>
+                </div>
+                <hr>
+                {% endif %}
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Información General</h4>
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Radicado:</th>
+                                <td>{{ detalle.llaveProceso }}</td>
+                            </tr>
+                            <tr>
+                                <th>Fecha de Radicación:</th>
+                                <td>{{ detalle.fechaRadicacion }}</td>
+                            </tr>
+                            <tr>
+                                <th>Despacho:</th>
+                                <td>{{ detalle.despacho }}</td>
+                            </tr>
+                            <tr>
+                                <th>Clase de Proceso:</th>
+                                <td>{{ detalle.claseProceso }}</td>
+                            </tr>
+                            <tr>
+                                <th>Tipo de Proceso:</th>
+                                <td>{{ detalle.tipoProceso }}</td>
+                            </tr>
+                            <tr>
+                                <th>Ubicación Expediente:</th>
+                                <td>{{ detalle.ubicacionExpediente }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Partes del Proceso</h4>
+                        <div class="mb-3">
+                            <h5>Demandantes</h5>
+                            <ul class="list-group">
+                                {% if detalle.demandantes %}
+                                    {% for demandante in detalle.demandantes %}
+                                        <li class="list-group-item">{{ demandante }}</li>
+                                    {% endfor %}
+                                {% else %}
+                                    <li class="list-group-item">No hay información disponible</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Demandados</h5>
+                            <ul class="list-group">
+                                {% if detalle.demandados %}
+                                    {% for demandado in detalle.demandados %}
+                                        <li class="list-group-item">{{ demandado }}</li>
+                                    {% endfor %}
+                                {% else %}
+                                    <li class="list-group-item">No hay información disponible</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Actuaciones del Proceso</h3>
+            </div>
+            <div class="card-body">
+                {% if actuaciones and actuaciones.actuaciones and actuaciones.actuaciones|length > 0 %}
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Actuación</th>
+                                    <th>Anotación</th>
+                                    <th>Urgencia</th>
+                                    <th>Documentos</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for actuacion in actuaciones.actuaciones %}
+                                <tr {% if actuacion.clasificacion %}data-urgencia="{{ actuacion.clasificacion.nivel_urgencia|lower }}"{% endif %} class="{% if actuacion.clasificacion %}actuacion-{{ actuacion.clasificacion.nivel_urgencia|lower }}{% endif %}">
+                                    <td>{{ actuacion.fechaActuacion }}</td>
+                                    <td>{{ actuacion.actuacion }}</td>
+                                    <td>{{ actuacion.anotacion }}</td>
+                                    <td>
+                                        {% if actuacion.clasificacion %}
+                                            <span class="urgencia-badge urgencia-{{ actuacion.clasificacion.nivel_urgencia|lower }}">
+                                                {{ actuacion.clasificacion.nivel_urgencia }}
+                                            </span>
+                                            {% if actuacion.clasificacion.requiere_accion %}
+                                                <span class="badge bg-danger ms-1" data-bs-toggle="tooltip" title="Requiere acción inmediata">!</span>
+                                            {% endif %}
+                                        {% else %}
+                                            <span class="badge bg-secondary">No clasificada</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if actuacion.conDocumentos %}
+                                            <span class="badge bg-success">Sí</span>
+                                        {% else %}
+                                            <span class="badge bg-secondary">No</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if actuacion.conDocumentos %}
+                                            <a href="/actuacion/{{ actuacion.idRegActuacion }}" class="btn btn-sm btn-info">Ver documentos</a>
+                                        {% endif %}
+                                        {% if actuacion.clasificacion %}
+                                            <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="tooltip" title="{{ actuacion.clasificacion.justificacion }}">
+                                                <i class="bi bi-info-circle"></i> Info
+                                            </button>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <div class="alert alert-info">
+                        No hay actuaciones registradas para este proceso.
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

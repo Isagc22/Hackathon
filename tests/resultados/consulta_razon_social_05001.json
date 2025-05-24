@@ -1,0 +1,21 @@
+{
+  "tipoConsulta": "NombreRazonSocial",
+  "procesos": [],
+  "parametros": {
+    "numero": null,
+    "nombre": "Empresa Local Test",
+    "tipoPersona": "jur",
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": "05001",
+    "soloActivos": true
+  },
+  "paginacion": {
+    "cantidadRegistros": 0,
+    "registrosPagina": 20,
+    "cantidadPaginas": 0,
+    "pagina": 1,
+    "paginas": null
+  }
+}

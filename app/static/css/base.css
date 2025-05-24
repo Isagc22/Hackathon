@@ -1,0 +1,40 @@
+#nav-monitor-jud.custom-navbar {
+    background-color: #213448 !important;
+}
+
+.custom-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.custom-nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.custom-nav-link:hover {
+    color: white !important;
+}
+
+.custom-footer {
+    background-color: #213448 !important;
+}
+
+.custom-footer-text {
+    color: white!important;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #213448;
+    margin-right: 6px;
+}
+
+i.bi.bi-search, i.bi.bi-house {
+    color: white;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid #ECEFCA;
+}

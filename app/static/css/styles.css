@@ -1,0 +1,149 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.footer {
+    border-top: 1px solid #dee2e6;
+}
+
+.table-responsive {
+    margin-bottom: 0;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* Estilos para las actuaciones */
+.actuacion-urgente {
+    background-color: #ffebee !important;
+}
+
+.actuacion-alta {
+    background-color: #fff8e1 !important;
+}
+
+.actuacion-normal {
+    background-color: #ffffff !important;
+}
+
+.actuacion-baja {
+    background-color: #f1f8e9 !important;
+}
+
+/* Estilos para la línea de tiempo */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 4px;
+    background: #dee2e6;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+
+.timeline-badge {
+    position: absolute;
+    left: 40px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    background: #007bff;
+    border: 4px solid #fff;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.timeline-panel {
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los formularios */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Estilos para los resúmenes generados por IA */
+.resumen-ia {
+    background-color: #f8f9fa;
+    border-left: 4px solid #0d6efd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Estilos para la clasificación de urgencia */
+.urgencia-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-align: center;
+    min-width: 80px;
+}
+
+.urgencia-urgente {
+    background-color: #f44336;
+    color: white;
+}
+
+.urgencia-alta {
+    background-color: #ff9800;
+    color: white;
+}
+
+.urgencia-normal {
+    background-color: #2196f3;
+    color: white;
+}
+
+.urgencia-baja {
+    background-color: #4caf50;
+    color: white;
+}

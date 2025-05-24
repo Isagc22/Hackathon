@@ -1,0 +1,58 @@
+{
+  "tipoConsulta": "NumeroRadicacion",
+  "procesos": [
+    {
+      "idProceso": 108748841,
+      "idConexion": 173,
+      "llaveProceso": "76001400300120210032300",
+      "fechaProceso": "2021-04-21T00:00:00",
+      "fechaUltimaActuacion": "2022-05-13T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CALI ",
+      "departamento": "VALLE DEL CAUCA",
+      "sujetosProcesales": "Demandante: BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA BBVA COLOMBIA S.A.   notifica.co@bbva.com | Demandado: APDO JAIME SUAREZ ESCAMILLA | Demandado: JACQUELINE HERMAN ECHEVERRY ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 128885421,
+      "idConexion": 320,
+      "llaveProceso": "76001400300120210032300",
+      "fechaProceso": "2021-04-21T00:00:00",
+      "fechaUltimaActuacion": "2022-01-17T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CALI ",
+      "departamento": "VALLE DEL CAUCA",
+      "sujetosProcesales": "Demandante/accionante: BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A. BBVA COLOMBIA- | Demandado/indiciado/causante: JACQUELINE  HERMANN\r\n\t\t\t\t\techeverry (Emplazado) | Defensor Privado: JAIME  SUAREZ\r\n\t\t\t\t\tESCAMILLA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 132943651,
+      "idConexion": 240,
+      "llaveProceso": "76001400300120210032300",
+      "fechaProceso": "2021-04-21T00:00:00",
+      "fechaUltimaActuacion": "2024-08-09T00:00:00",
+      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI ",
+      "departamento": "VALLE DEL CAUCA",
+      "sujetosProcesales": "Demandante: BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA BBVA COLOMBIA S.A.   notifica.co@bbva.com | Demandado: JACQUELINE HERMAN ECHEVERRY ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "parametros": {
+    "numero": "76001400300120210032300",
+    "nombre": null,
+    "tipoPersona": null,
+    "idSujeto": null,
+    "ponente": null,
+    "claseProceso": null,
+    "codificacionDespacho": null,
+    "soloActivos": false
+  },
+  "paginacion": {
+    "cantidadRegistros": 3,
+    "registrosPagina": 20,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}
