@@ -1,11 +1,11 @@
 .custom-card-busqueda {
     border-radius: 1rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    background-color: #fff0f6;
+    /* box-shadow: 0 2px 6px #0000001a; */
+    background-color: #94B4C1!important;
 }
 
 .custom-card-header {
-    background-color: #ba68c8 !important;
+    background-color: #547792 !important;
 }
 
 .custom-title {
@@ -14,31 +14,98 @@
 }
 
 .custom-tab-link {
-    color: #6a1b9a !important;
+    color: #ffffff !important;
+    font-weight: 700!important;
+
 }
 
 .custom-tab-link.active {
-    background-color: #f3e5f5 !important;
-    border-color: #ce93d8 !important;
+    background-color: #213448!important;
+    border-color: #213448!important;
 }
 
 .custom-form-group label {
     font-weight: 600;
-    color: #6a1b9a;
-}
-
-.custom-input,
-.custom-select {
-    border-radius: 0.5rem;
-    border: 1px solid #ce93d8;
+    color: #000000;
 }
 
 .custom-btn-submit {
-    background-color: #ab47bc !important;
-    border-color: #ab47bc !important;
+    background-color: #ECEFCA !important;
+    border: 1px solid #FFE99A!important;
 }
 
 .custom-btn-submit:hover {
-    background-color: #9c27b0 !important;
-    border-color: #9c27b0 !important;
+    background-color: #FFE99A!important;
+    border-color:  #ECEFCA !important;
+    
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background-color:#213448;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    padding: 0 22px 22px 0 !important
+}
+
+input[type="checkbox"]:checked + label::after {
+    content: "✔";
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+li.nav-item.custom-tab-item {
+    border-bottom: 1px solid #ECEFCA
+}
+
+/* button#razon-social-tab {
+    border: 1px solid red !important;
+}
+ */
+
+ button#razon-social-tab {
+    color: #000000 !important;
+}
+button#radicado-tab {
+    color: #000000 !important;
+}
+button#razon-social-tab.active {
+    color: #ffff !important;
+}
+button#radicado-tab.active {
+    color: #ffff !important;
+}
+button#razon-social-tab:hover {
+    background-color: #547792 !important;
+    border: 1px solid #FFE99A !important;
+}
+
+button#radicado-tab:hover {
+    background-color: #547792 !important;
+    border: 1px solid #FFE99A !important;
+}	
+ul#busquedaTab {
+    border-bottom: 1px solid #f8df87;
 }

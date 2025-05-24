@@ -38,3 +38,6 @@ i.bi.bi-search, i.bi.bi-house {
 .nav-item:hover{
     border-bottom: 1px solid #ECEFCA;
 }
+span.text-muted.custom-footer-text {
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.card-header-danger {
+    background-color:#AF3E3E !important;
+    color: #ffffff !important;
+}
+
+.alert .alert-danger {
+    background-color: #DA6C6C !important;
+    color: #ffffff !important;
+}
+
+a.btn.btn-volver-al-bq {
+    background-color: #DA6C6C !important;
+    color: #000000!important;
+    font-weight: bold;
+}
+
+
+a.btn.btn-volver-al-in{
+    background-color: #EAEBD0!important;
+    color: #000000!important;
+    font-weight: bold;
+}

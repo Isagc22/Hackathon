@@ -1,0 +1,20 @@
+.contenedor-header {
+  background-color: #547792 !important;
+}
+
+h2.mb-0 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+a.btn.btn-lg.btn-in-busqueda {
+  background: #ecefca;
+  color: #000000;
+  border: 1px solid #FFE99A;
+}
+
+a.btn.btn-lg.btn-in-busqueda:hover {
+  background: #FFE99A;
+  color: #000000;
+  border: 1px solid #ecefca;
+}
